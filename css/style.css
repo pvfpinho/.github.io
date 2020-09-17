@@ -1,6 +1,5 @@
 img {
-    max-width: 100%;
-    border: 1px solid #FFA442;
-    padding: 10px;
+    max-width: 10%;
     box-shadow: 5px 5px 5px #C7E8F3;
+    float: right;
   }
