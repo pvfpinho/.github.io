@@ -1,5 +1,60 @@
+/* palette colors
+  --headline #BDC6A9;
+  --paragraph #000000; 
+  --headline-background: #995d76;
+  --text-background-color: #FFF0EB;
+  --nav-link-color: #F97639;
+*/
+
+
+header , footer {
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #995d76;
+    color: #BDC6A9;
+    border-radius: 20px;
+}
+
+body {
+    font-size: 18px;
+    background-color:#FFF0EB;
+    color: black;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: bold;
+
+}
+
+h2 {
+    margin-left: 0.5em;
+    font-size: 20px;
+}
+
+hr {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+}
+
+a {
+    color: #f97639;
+
+}
+
+#lastmodified {
+    color: #C490D1;
+}
+
 img {
-    max-width: 10%;
-    box-shadow: 5px 5px 5px #C7E8F3;
+    box-shadow: 0 6px 10px 0 #C490D1, 0 8px 300px 0 #C490D1;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-right: 0.8em;
+    width:240px;
+    height:280px;
+    object-fit: fill;
     float: right;
   }
