@@ -5,6 +5,7 @@
   --text-background-color: #FFF0EB;
   --nav-link-color: #F97639;
 */
+@import url("https://fonts.googleapis.com/css?family=Cinzel:wght@700");
 
 
 header , footer {
@@ -42,6 +43,10 @@ hr {
 a {
     color: #f97639;
 
+}
+
+h1, h2, header, footer{
+    font-family: "Cinzel:wght@700", cursive;
 }
 
 #lastmodified {
