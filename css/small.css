@@ -14,7 +14,7 @@ header , footer {
 }
 
 footer {
-    font-size: 8px;
+    font-size: 15px;
 }
 
 body {
@@ -24,14 +24,14 @@ body {
 }
 
 h1{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
 
 }
 
 h2 {
     margin-left: 0.5em;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 hr {
@@ -52,7 +52,7 @@ h1, h2, header, footer{
 
 #lastmodified {
     color: #FFA442;
-    font-size: 5px;
+    font-size: 8px;
 }
 
 header img {
