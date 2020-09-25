@@ -5,7 +5,6 @@
   --text-background-color: #FFF0EB;
   --nav-link-color: #F97639;
 */
-@import url("https://fonts.googleapis.com/css?family=Cinzel:wght@700");
 
 header , footer {
     text-align: center;
@@ -45,7 +44,7 @@ a {
 }
 
 h1, h2, header, footer{
-    font-family: "Cinzel:wght@700", cursive;
+    font-family: 'Courgette', cursive;
 }
 
 #lastmodified {
