@@ -1,0 +1,22 @@
+@media only screen and (min-width: 32.5em) {
+
+    header , footer {
+        border-radius: 20px;
+    }
+    
+    h1{
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    img {
+        box-shadow: 0 6px 10px 0 #C490D1, 0 8px 300px 0 #C490D1;
+        object-fit: fill;
+        float: right;
+      }
+
+
+}

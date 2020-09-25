@@ -11,7 +11,6 @@ header , footer {
     padding: 0.5rem;
     background-color: #995d76;
     color: #BDC6A9;
-    border-radius: 20px;
 }
 
 body {
@@ -21,14 +20,14 @@ body {
 }
 
 h1{
-    font-size: 60px;
+    font-size: 30px;
     font-weight: bold;
 
 }
 
 h2 {
     margin-left: 0.5em;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 hr {
@@ -39,7 +38,7 @@ hr {
 }
 
 a {
-    color: #f97639;
+    color: #f97636;
 
 }
 
@@ -48,16 +47,13 @@ h1, h2, header, footer{
 }
 
 #lastmodified {
-    color: #C490D1;
+    color: #f97636;
 }
 
-img {
+header img {
     box-shadow: 0 6px 10px 0 #C490D1, 0 8px 300px 0 #C490D1;
-    text-align: center;
     margin-top: 0.5em;
     margin-right: 0.8em;
     width:240px;
     height:280px;
-    object-fit: fill;
-    float: right;
   }
