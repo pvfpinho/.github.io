@@ -13,6 +13,11 @@ header , footer {
     color: #BDC6A9;
 }
 
+footer {
+    font-size: 10px;
+
+}
+
 body {
     font-size: 18px;
     background-color:#FFF0EB;
