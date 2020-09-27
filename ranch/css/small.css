@@ -23,3 +23,51 @@ header h1 {
 header h2 {
     margin: 0;
 }
+/* navigation rules */
+nav {
+    background-color: #111;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    list-style-type: none;
+}
+nav li.active{
+    background-color: #333;
+}
+nav a {
+    display: block;
+    padding: .8rem 0; /* 44 min heght */
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: #444;
+}
+/* main rules */
+main {
+    padding: 1rem 2%;
+    display: block;
+}
+main h1 {
+    color:#17a8e4;
+}
+
+
+
+
+
+
+
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
