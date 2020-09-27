@@ -5,7 +5,7 @@
    }
    main figure {
        float: right;
-       width: The 48%;
+       width: 48%;
        margin-left: 2%;
    }
 
@@ -14,7 +14,7 @@
        column-count: 2;
        column-rule: 1px solid #ddd;
    }
-   
+
 
 
 } /* end of media query */ 
