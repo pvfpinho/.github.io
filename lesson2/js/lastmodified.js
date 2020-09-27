@@ -1,0 +1,2 @@
+const dateup = {month:'numeric' , day:'numeric' , year:'numeric', hour:'numeric' , minute:'numeric', second:'numeric'};
+document.getElementById('lastmodified').textContent = new Date().toLocaleDateString('en-US', dateup)
