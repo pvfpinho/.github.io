@@ -34,9 +34,9 @@ main {
 }
 section{
     border-radius: 5px;
-    border: 2px solid #ffffdd;
+    border: 2px solid #ffff;
     margin: 10px;
-    border-top: 55px solid #C99292;
+    border-top: 2rem solid #C99292;
 }
 figure img {
     width: 90%;
