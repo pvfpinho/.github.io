@@ -1,0 +1,133 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* 
+--international-orange-golden-gate-bridge: #c03221ff;
+--independence: #545e75ff;
+--lemon-meringue: #faedcaff;
+--tea-green: #c1dbb3ff;
+--dark-sea-green: #7ebc89ff;
+--blue-pigment: #29339bff; */
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    background-color: #fff;
+}
+header img {
+    float: left;
+    margin-right: 10px;
+    width: 90px;
+}
+header h1 {margin-top: 10px;
+font-size: 1.3rem;
+}
+header h2 {
+    color: #D076C1;
+    margin-top: -5px;
+    font-weight: normal;
+    
+   
+}
+
+/*----------- NAVIGATION --------------*/
+nav {
+    background-color: #4D7C8A;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
+
+
+nav ul li a:hover {
+    background-color: #102542;
+    color: #fff;
+}
+nav ul li.active a {
+    background-color: #102542;
+    color: #fff;
+}
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+.fontone {
+    font-family: 'Merriweather', serif;
+}
+.fonttwo {
+    font-family: 'Poppins', sans-serif;
+}
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td {
+    width: 15%;
+    height: 3em;
+  }
+  
+  .primary {
+    background-color: #545E75;
+  }
+  .secondary {
+    background-color:#C03221;
+  }
+  .accent1 {
+    background-color: #FAEDCA;
+  }
+  .accent2 {
+    background-color: #C1DBB3;
+  }
+  .accent3 {
+      background-color: #7EBC89;
+
+  }
+  .accent4 {
+    background-color: #29339B;
+
+}
+
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color:#4D7C8A;
+    color:#FF85E9;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
