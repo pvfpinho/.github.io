@@ -1,0 +1,126 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* 
+  <"primary">#545E75</td>
+  <secondary">#C03221</td>
+  <accent1">#FAEDCA</td>
+  <"accent2">#C1DBB3</td>
+  <"accent3">#7EBC89</td>
+  <"accent4">#29339B</td>
+
+/*----------- BODY --------------*/
+body {
+  background-color: #FAEDCA;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+}
+
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    background-color: #545E75;
+}
+header img {
+    float: left;
+    margin-right: 10px;
+    width: 90px;
+}
+header h1 {
+  font-family: 'Merriweather', serif;
+  color:#FAEDCA;
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+header h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #c1dbb3;
+  margin-top: -5px;
+  font-weight: normal;
+    
+   
+}
+
+/*----------- NAVIGATION --------------*/
+nav button {
+  font-family: 'Merriweather', serif;
+  margin: 4px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: #FAEDCA;
+}
+nav ul.hide {
+  display: none;
+}
+
+nav {
+    background-color: #29339B;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #C1DBB3;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
+
+
+nav ul li a:hover {
+    background-color: #545E75;
+    color: #FAEDCA;
+}
+nav ul li.active a {
+    background-color: #545E75;
+    color: #FAEDCA;
+}
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+
+main h2{
+  font-family: 'Poppins', sans-serif;
+  color: #FAEDCA;
+}
+div {
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid;
+  color: #29339B;
+  background-color: #C1DBB3;
+  padding: 10px;
+  margin: 7px;
+  
+
+}
+
+
+/*----------- FOOTER --------------*/
+footer {
+  font-family: 'Poppins', sans-serif;
+  background-color:#29339B;
+  color:#C1DBB3;
+  padding: .5rem 2%;
+  text-align: center;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
