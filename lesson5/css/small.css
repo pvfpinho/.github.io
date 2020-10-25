@@ -179,6 +179,9 @@ div.biglogo img {
   background-color: #545E75;
   padding: .5rem 0;
 }
+.contact img {
+  display: none;
+}
 
 
 
