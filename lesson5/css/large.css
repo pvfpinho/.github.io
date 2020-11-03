@@ -50,6 +50,11 @@ header h2 {
 
 /*----------- MAIN --------------*/
 
+.sumList {
+    font-size: 20px;
+
+}
+
 .contact img {
     width: 400px;
     height: 200px;
