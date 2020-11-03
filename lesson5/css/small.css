@@ -143,7 +143,7 @@ div.biglogo h2, p {
   margin: 0;
 }
 
-div.biglogo img {
+.biglogo img {
   width: 100%;
   
 }
@@ -170,6 +170,7 @@ div.biglogo img {
 
 .article {
   margin-top: 4%;
+  margin-left: 2%;
 }
 
 .contact {
