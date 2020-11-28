@@ -1,25 +1,26 @@
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 64rem;
+body {background-color: seashell;}
 
+picture img {width: 300px; height: 400px; display: block; margin: auto; margin-bottom: 30px; border: 1.2px solid black;}
+picture img:hover {box-shadow: 0 0 50px black; border-radius: 20px;}
+picture {width: 300px; height: 450px;}
+
+
+#pictures figure img {width: 300px; height: 400px; display: block; margin: auto; margin-bottom: 30px; border: 1.2px solid black;}
+#pictures figure img:hover {box-shadow: 0 0 50px black; border-radius: 20px;}
+#picture figure {width: 300px; height: 450px;}
+figcaption {text-align: center; margin-top: -20px;}
+h1 {text-align: center;}
+
+
+
+main div#pictures {display: grid; grid-template-columns: 1fr;}
+
+@media only screen and (min-width: 560px) {
+    main div#pictures {grid-template-columns: 1fr 1fr;}
 
 }
 
-
-img { 
-    margin: 15px;
-    border: 1px black solid;
-    display: block;
-    width: 100%;
-  
-}
-
-h1 {
-    text-align: center;
-    color:black;
+@media only screen and (min-width: 1028px) {
+    main div#pictures {grid-template-columns: 1fr 1fr 1fr;}
 }
