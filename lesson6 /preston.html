@@ -59,13 +59,19 @@
     <div id="message"><b>Saturday = Preston Pancakes in the Park!  9:00 a.m.<br>Saturday at the city park pavilion.</b></div>
     <h1>Preston, Idaho</h1>
     <div class="biglogo">
-      <img src="images/widelog.jpg" alt="sky and clouds">
+      <picture class ="hero">
+        <source media="(max-width: 400px)" srcset="images/sky400.jpg">
+        <source media="(max-width: 800px)" srcset="images/sky800.jpg">
+        <source media="(max-width: 1200px)" srcset="images/sky1200.jpg">
+        <img src="images/wdd230_image_franklinOriginal(1).jpeg" alt="Sky and clouds">
+      </picture>
       <section class="sumList">
         <h3>Weather Summary</h3>
         <p>Currently: Sunny</p>
-        <p>High: 76 °F</p>
-        <p>Wind Speed: 5 mph</p>
-        <p>Humidity: 70%</p>
+        <p>High: <span id="ht">50</span>°F</p>
+        <p>Wind Chill: <span id="wc">  </span>°F</p>
+        <p>Humidity: <span>6.7%</span></p>
+        <p>Wind Speed: <span id="ws">5</span>MPH</p>
         
       </section>
     </div>
@@ -150,6 +156,8 @@
    </footer>
    <script src="js/menubuton.js"></script>
    <script src="js/lastmodified.js"></script>
+   <script src="js/webfont.js"></script>
+   <script src="js/windchill.js"></script>
    
 
 </body>
