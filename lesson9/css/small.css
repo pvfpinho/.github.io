@@ -173,11 +173,13 @@ div.biglogo h2, p {
 }
 
 .contact {
-  margin-top: 4%;
+  color: #C1DBB3;
+  font-size: 15px;
+  margin-top: 3%;
   font-family: 'Poppins', sans-serif;
   text-align: center;
   background-color: #545E75;
-  padding: .5rem 0;
+  padding: .3rem 0;
 }
 .contact img {
   display: none;
@@ -253,6 +255,10 @@ footer {
   color:#C1DBB3;
   padding: .5rem 0;
   text-align: center;
+}
+
+footer a{
+  color:#C1DBB3 ;
 }
 
 
