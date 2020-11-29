@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <title>Pamella Rodrigues</title>
+    <meta name="description" content="WDD 230 - week 07: Gallery weather site- 
+    by Pamella Rodrigues, Brigham Young University Idaho">
+<!-- Favicon w05  -->
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <header>
+    <header class="clearfix">
+        <img src="images/logo.png" alt="logo">
+        <h1>The Meteorologyck Site</h1> 
+        <h2>Make sure to bring an Umbrella!</h2>
+    </header>
+
+  </header>
+  <!-- NAVIGATION HERE -->
+  <nav class="clearfix">
+    <button onclick="menubuton()">☰ Menu</button>
+    <ul id="menuNav" class="hide">
+        <li><a href="#">Home</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a class="active" href="gallery.html">Gallery</a></li>
+    </ul>
+    </nav>
+  
+  <!-- CONTENT HERE -->
+    <Main>
+
+    <h2>
+        Weather Gallery
+    </h2>
+     <section class="gallery">
+        <figure>
+        <img src="images/florest.jpg" alt="Winter snowfall">
+        <figcaption>Winter snowfall at empty road</figcaption>
+        </figure>
+        <figure>
+        <img class="lazy" data-src="images/1.jpg" alt="crazy road sky.">
+        <figcaption>Road weather cast</figcaption>
+        </figure>
+        <figure>
+        <img class="lazy" data-src="images/2.jpg" alt="all seasons together">
+        <figcaption>All seasons skies together</figcaption>
+        </figure>
+        <figure>
+        <img class="lazy" data-src="images/3.jpg" alt="Thunder storm">
+        <figcaption>Thunder storm</figcaption>
+        </figure>
+        <figure>
+        <img class="lazy" data-src="images/4.jpg" alt="weather cast news logo">
+        <figcaption>The weather today</figcaption>
+        </figure>
+        <figure>
+        <img class="lazy" data-src="images/5.jpg" alt="Blue and clear sky.">
+        <figcaption>Blue and clear sky.</figcaption>
+        </figure>
+        <figure>
+        <img class="lazy" data-src="images/6.png" alt="Sunny cast">
+        <figcaption>Sunny day cast</figcaption>
+        </figure>
+     </section>
+
+     <section class="contact">
+        
+        <img src="images/map.jpg" alt="map with location">
+        <h2>Contact Information</h2>
+        <br>
+        <h4>Meteorologyck Office Location</h4>
+        <span>300 south 200 east<br> Preston Idaho</span>
+        <br>
+        <span>☏ (123) 456-7788 </span>
+        <br>
+        <span>✉ support@Meteorologyck.com </span>
+        <br>
+    </section>
+
+
+  </Main> 
+  <footer>
+   &copy; 2020 | Pamella Rodrigues | Utah | <a href="https://www.byui.edu/online">BYUI OnLine Learning</a> <br>
+  Last Updated: <span id="lastmodified"></span>
+
+  </footer>
+  <script src="js/lastmodified.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/webfont.js"></script>
+  <script src="js/windchill.js"></script>
+  <script src="js/lazyload.js"></script>
+  <script>
+    webfont.load({google: {families: ["Courgette"]} });
+  
+  </script>
+
+</body>
+</html>
