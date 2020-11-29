@@ -1,0 +1,66 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+    header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+    }
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+header img {
+    width: 15%;
+}
+header h1 {
+    font-size: 2rem;
+    margin-top: 40px;
+}
+header h2 {
+    font-size: 1.5rem;
+}
+
+/*----------- NAVIGATION --------------*/
+ nav button {
+     display: none;
+ }
+ 
+ nav ul.hide {
+     display: block;
+ }
+
+ nav ul {
+     margin-left: 2%;
+ }
+
+ nav ul li {
+     float: left;
+ }
+
+ nav ul li a {
+     border: none;
+     font-size: 18px;
+     border-right: 1px solid #C1DBB3;
+     padding: 0.6rem 1rem;
+ }
+
+
+/*----------- MAIN --------------*/
+
+.sumList {
+    font-size: 20px;
+
+}
+
+.contact img {
+    width: 400px;
+    height: 200px;
+    margin-top: 10px;
+    
+  }
+
+/*----------- FOOTER --------------*/
+}
