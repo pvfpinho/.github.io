@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="WDD 230 - week 05: Preston Town Page  by Pamella Rodrigues, Brigham Young University Idaho">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+<!-- Favicon w05  -->
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<!-- Title page  -->
+<title>Preston Town Page </title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+
+     
+</head>
+
+<body>
+<!-- HEADER HERE -->
+	<header class="clearfix">
+        <img src="images/logo.png" alt="logo">
+        <h1>The Meteorologyck Site</h1> 
+        <h2>Make sure to bring an Umbrella!</h2>
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+<nav class="clearfix">
+    <button onclick="menubuton()">☰ Menu</button>
+    <ul id="menuNav" class="hide">
+        <li><a href="#">Home</a></li>
+        <li ><a href="#">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a class="active" href="stormcenter.html">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+    </ul>
+    </nav>
+
+<!-- CONTENT HERE -->
+<main>
+
+    <div id="message"><b>Saturday = Preston Pancakes in the Park!  9:00 a.m.<br>Saturday at the city park pavilion.</b></div>
+    
+    <h1>Preston, Idaho</h1>
+    
+    <p class="thanksmessage">Thank You for submiting your information! </br>We appreciate your time!</p>
+
+ </main>
+    
+<!-- FOOTER HERE -->   
+<footer>
+    &copy; 2020 | The Meteorologyck Site | Pam Rodrigues | <span id="lastmodified"></span>
+ 
+   </footer>
+   <script src="js/menubuton.js"></script>
+   <script src="js/lastmodified.js"></script>
+   
+
+</body>
+</html>
