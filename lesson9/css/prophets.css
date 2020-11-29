@@ -24,7 +24,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- BODY --------------*/
 
 body {
-    background-color: lightslategray;
+    background-color: lightgray;
 }
 
 h1 {
@@ -42,6 +42,7 @@ section img {
     margin-bottom: 10px;
 }
 section {
+    background-color: lightslategray;
     display: flex;
     flex-direction: column;
     margin: 20px;
