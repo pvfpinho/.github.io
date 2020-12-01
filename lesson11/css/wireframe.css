@@ -1,0 +1,23 @@
+
+img {
+    
+    display: block; 
+    margin: auto;
+}
+#firstImg {
+    width: 50%;
+
+}
+
+#secondImg {
+    width: 30%;
+
+}
+
+#thirdImg {
+    width: 20%;
+
+}
+p {
+    text-align: center;
+}
