@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="WDD 230 - week 09: Weather site by Pamella Rodrigues, Brigham Young University Idaho">
+<meta name="description" content="WDD 230 - week 10: Preston weather api  by Pamella Rodrigues, Brigham Young University Idaho">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 
@@ -10,7 +10,7 @@
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 <!-- Title page  -->
-<title> The Meteorologyck Site</title>
+<title>Preston Town Page </title>
 
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -44,9 +44,9 @@
 <nav class="clearfix">
     <button onclick="menubuton()">☰ Menu</button>
     <ul id="menuNav" class="hide">
-        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="preston.html">Preston</a></li>
-        <li><a href="sodasprings.html">Soda Springs</a></li>
+        <li class="active" ><a href="sodasprings.html">Soda Springs</a></li>
         <li><a href="fishhaven.html">Fish Haven</a></li>
         <li><a href="stormcenter.html">Storm Center</a></li>
         <li><a href="gallery.html">Gallery</a></li>
@@ -57,11 +57,9 @@
 <main>
 
     <div id="message"><b>Saturday = Preston Pancakes in the Park!  9:00 a.m.<br>Saturday at the city park pavilion.</b></div>
-    <h1>Welcome to Meteorologyck Weather Page</h1>
+    <h1>Preston, Idaho</h1>
     <div class="biglogo">
-      <picture class ="hero">
-        <img src="images/widelog.jpg" alt="Sky and clouds">
-      </picture>
+      <img src="images/widelog.jpg" alt="sky and clouds">
       <section class="sumList">
         <h3>Weather Summary</h3>
         <p>Currently: Sunny</p>
@@ -73,9 +71,12 @@
       </section>
     </div>
 
-    <div class="towns"></div>
+    <section class="forecast">
+
+    </section>
     <section class="eventsec">
-      <h2>Upcoming Events:</h2> <hr>
+      <h2>Upcoming Events:</h2> 
+      <hr>
       <div id="events">
 
 
@@ -83,25 +84,27 @@
       </div>
   </section>
 
-
     <section class="article">
        
 
-                
-                <h2>Our Purpose</h2>
-                <hr>
-                <p>
-                  The purpose of this website is to provide people with the weather update, 24hs, 7 days a week, at Cities of:<br>
-                  - Fish Haven<br>
-                  - Preston<br>
-                  - Soda Springs
-                  <br>
-                  We want to provide the current weather and help all Citizens and also all visitors 
-                  to be prepared for their day activities and enjoy even more the outdoors and our beautiful place.
-                  We want this to be a web site with easy access to all the information, with easy understanding and
-                  accessible from any device you use.
-                
-                </p>
+      <img src="images/florest.jpg" alt="florest frozen">
+      <h2>Winter is coming!</h2>
+      <h4>by Meteorologyck</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eos cumque fuga nemo nulla architecto
+        nostrum ratione possimus eum. Voluptates quod quasi sint officia consequatur ullam modi earum nulla,
+       excepturi perferendis culpa nihil deserunt eos at esse, adipisci saepe ipsa voluptatem aperiam iure
+       quaerat quas mollitia laborum. Voluptatem, magni non. Aliquid cupiditate nemo iure, doloremque molestias
+       perspiciatis et tenetur necessitatibus ipsa animi reprehenderit quae quibusdam nesciunt iste possimu              distinctio ratione mollitia impedit rerum inventore dignissimos amet delectus maiores. Cupiditate
+        quisquam repudiandae, fugit natus asperiores eaque voluptatem quod aut cum unde, rerum reprehenderit
+       laborum! Accusamus dolores nobis itaque expedita. Cumque minus repellendus id consectetur quaerat
+       similique nam iste laboriosam dicta mollitia, magnam porro assumenda error nostrum molestiae laudantium
+       xpedita esse adipisci minima distinctio accusantium, deleniti amet? Esse blanditiis impedit velit
+        architecto, sapiente officia, eos voluptatem quisquam est totam dolores quas voluptas odit quam
+       molestias sint! Repellat fugit alias, cumque explicabo ipsam nulla nostrum quas soluta quos quisquam
+        utem vitae provident ipsa assumenda labore minima iusto accusamus porro aliquam laboriosam debitis
+       perferendis error itaque accusantium? Facilis eaque et natus? Eaque, esse consectetur quasi dolorem
+        omnis dolores mollitia nobis veritatis a hic ipsum alias quae! Facere odit natus ducimus quasi, odio
+        nesciunt nisi!</p>
             
       
     </section>
@@ -127,15 +130,16 @@
     
 <!-- FOOTER HERE -->   
 <footer>
-    &copy; 2020 | The Meteorologyck Site | Pam Rodrigues | <a target="_blank" href="home-wireframe.html">wireframe</a> | <span id="lastmodified"></span>
-
-   </footer>
-   <script src="js/menubuton.js"></script>
-   <script src="js/lastmodified.js"></script>
-   <script src="js/windchill.js"></script>
-   <script src="js/index.js"></script>
-   <script src="js/eventindex.js"></script>
-   
-
+    &copy; 2020 | The Meteorologyck Site | Pam Rodrigues | <span id="lastmodified"></span>
+    <hr>
+    Weather Source: <a href="https://openweathermap.org/">https://openweathermap.org/</a>
+ 
+</footer>
+  <script src="js/menubuton.js"></script>
+  <script src="js/lastmodified.js"></script>
+  <script src="js/windchill.js"></script>
+  <script src="js/weatherapi.js"></script>
+  <script src="js/forecast.js"></script>
+  
 </body>
 </html>

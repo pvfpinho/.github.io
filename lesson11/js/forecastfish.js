@@ -1,3 +1,4 @@
+//forecast fish haven
 var d = new Date();
 var todayNumber = d.getDay();
 //console.log(todayNumber);
@@ -5,7 +6,7 @@ var week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "S
 //console.log(week[todayNumber]);
 
 
-const api = "//api.openweathermap.org/data/2.5/forecast?id=5604473&appid=57eab0ca980a33623115672515a2c752&units=imperial";
+const api = "//api.openweathermap.org/data/2.5/forecast?id=5585000&appid=57eab0ca980a33623115672515a2c752&units=imperial";
 
   fetch(api)
   .then((response) => response.json())
@@ -43,4 +44,3 @@ const api = "//api.openweathermap.org/data/2.5/forecast?id=5604473&appid=57eab0c
         }  
     }
   });
-
