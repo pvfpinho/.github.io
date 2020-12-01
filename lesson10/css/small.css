@@ -27,7 +27,7 @@ header {
     margin: auto;
     padding: .5rem 0;
     background-color: #545E75;
-    border: 2px solid #C1DBB3;
+    /*border: 5px solid#545E75;*/
 }
 header img {
     float: left;
@@ -37,16 +37,14 @@ header img {
 header h1 {
   font-family: 'Merriweather', serif;
   color:#FAEDCA;
-  margin-top: 10px;
+  margin-top: 5px;
   font-size: 1.3rem;
 }
 header h2 {
   font-family: 'Poppins', sans-serif;
   color: #c1dbb3;
-  margin-top: -5px;
-  font-weight: normal;
-    
-   
+  font-weight: bold;
+
 }
 
 /*----------- NAVIGATION --------------*/
@@ -54,7 +52,6 @@ nav button {
   font-family: 'Merriweather', serif;
   margin: 4px;
   background-color: transparent;
-  border: none;
   font-size: 12px;
   color: #FAEDCA;
 }
@@ -63,16 +60,19 @@ nav ul.hide {
 }
 
 nav {
+    border: 1px solid #FAEDCA;
     font-size: 12px;
-    background-color: #29339B;
+    background-color: #545E75;
 }
 nav ul {
+  
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 nav ul li a {
+  
     display: block;
     color: #C1DBB3;
     padding: .6rem 0;
@@ -97,7 +97,7 @@ main {
 }
 main h1 {
   text-align: center;
-  color: #29339b;
+  color: #29339B;
 
 }
 
@@ -106,13 +106,11 @@ main h2{
   color: #FAEDCA;
 }
 div {
-  border: 4px solid #C1DBB3;
+  border: 4px solid #29339b;
   font-family: 'Poppins', sans-serif;
-  background-color: #C1DBB3;
+  background-color: #FAEDCA;
   padding: 5px;
   
-  
-
 }
 #message {
   margin-left: 0%;
@@ -135,7 +133,7 @@ div.hideme {
 }
 
 div.biglogo {
-  border: 4px solid #C1DBB3;
+  border: 4px solid #545E75;
   position: relative;
 }
 
@@ -153,7 +151,7 @@ div.biglogo h2, p {
   position: absolute;
   top: 100px;
   left: 20px;
-  border: 4px solid #C1DBB3;
+  border: 4px solid #545E75;
   padding: 10px;
   background: repeating-radial-gradient(#7EBC89 ,#C1DBB3);
   color: #29339B;
@@ -165,17 +163,34 @@ div.biglogo h2, p {
 }
 
 
-.forecast {
+.forecast{
   margin-top: 4%;
   display: none;
 }
+.forecast p{
+  font-size: 20px;
+  font-weight: bold;
+  color: #29339b;
 
+}
 .article {
+  padding-bottom: 5%;
+  background-color: #545E75;
+  font-size: 16px;
+  color: #FAEDCA;
   margin-top: 4%;
+  margin-left: 0;
+  margin-bottom: 2%;
+  
+}
+.article h4, p {
   margin-left: 2%;
+  
+
 }
 .article img {
-  width: 60%;
+  border: 4px solid #545E75;
+  width: 100%;
   margin-right: 1%;
 
 }
