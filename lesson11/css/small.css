@@ -107,7 +107,7 @@ main h2{
 
 
 main section.eventsec {
-
+  text-align: center;
   background-color: #545E75;
   color: #FAEDCA;
   padding: 5px;
@@ -168,7 +168,6 @@ div.biglogo h2, p {
   margin: 5px;
 }
 
-}
 .hero {
     width: 100%;
     display: block;
@@ -199,6 +198,10 @@ div.biglogo h2, p {
   
 
 }
+.article h2{
+  text-align: center;
+}
+
 .article img {
   border: 4px solid #545E75;
   width: 100%;
