@@ -52,8 +52,9 @@ header h2 {
 
 .contact img {
     width: 400px;
-    height: 200px;
+    height: 180px;
     margin-top: 10px;
+    margin-bottom: 10px;
     
   }
 
@@ -69,7 +70,7 @@ header h2 {
 }
 
 .gallery img {
-    width: 300px;
+    width: 100%;
 }
 
 .gallery figure {
