@@ -84,18 +84,10 @@ header h2 {
     width: 300px;
     margin-top: 10px;
     display: block;
+
     
   }
 
-.towns section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
- 
-.preston {
-    grid-column: 2;
-    grid-row: 3;
-}
 
 
 /*----------- FOOTER --------------*/
