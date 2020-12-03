@@ -77,6 +77,12 @@ header h2 {
 
 }
 
+.towns p, h2{
+    padding: .1rem; 
+    margin-right: 30px;
+    text-align: center;
+  }
+
 
 .contact img {
     float: left;
