@@ -58,17 +58,19 @@ header h2 {
 .contact img {
     width: 400px;
     height: 200px;
-    margin-top: 10px;
+    margin-top: 0.5px;
+    margin-bottom: 50px;
     
   }
 
-
-  .towns {
+.towns {
     display: flex;
     flex-direction: row;
 }
 
 .towns section {
+    margin-left: 10px;
+   
    display: grid;
    grid-template-columns: 1fr;
    grid-template-rows: 1fr;

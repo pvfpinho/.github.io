@@ -28,6 +28,12 @@ header h2 {
 
 
 /*----------- MAIN --------------*/
+
+.biglogo img {
+    display: none;
+    
+  }
+
 .forecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -77,20 +83,45 @@ header h2 {
 
 }
 
-.towns p, h2{
-    padding: .1rem; 
-    margin-right: 30px;
-    text-align: center;
-  }
 .towns section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
- 
-.preston {
-    grid-column: 2;
-    grid-row: 3;
-  }
+    padding: 5px;
+    border: 4px #29339B solid ;
+    background-color:#C1DBB3;
+    text-align: center;
+    margin-left: 200px;
+    max-width: 300px;
+    max-height: 500px;
+    margin-bottom: 30px;
+}
+
+
+.towns section img {
+  padding: .1rem; 
+  width: 250px; 
+  max-height: 180px; 
+
+}
+
+
+.towns p, h2{
+  padding: .3rem; 
+  margin-top: -5px;
+  margin-right: 30px;
+  margin-bottom: 7px;
+  
+}
+div.towns {
+    text-align: center;
+color: #29339B;
+}
+
+.town2 {
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+
+
 
 .contact img {
     float: left;

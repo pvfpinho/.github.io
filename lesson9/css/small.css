@@ -144,7 +144,7 @@ div.biglogo h2, p {
 }
 
 .biglogo img {
-  width: 100%;
+ display: none;
   
 }
 
