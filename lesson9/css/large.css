@@ -50,10 +50,41 @@ header h2 {
 
 /*----------- MAIN --------------*/
 
-.sumList {
+div.biglogo {
+    border: 4px solid #545E75;
+    position: relative;
+  }
+  
+  div.biglogo h2, p {
+    margin: 0;
+  }
+  
+  .biglogo img {
+    display: block;
+    width: 100%;
+    
+  }
+  
+  .sumList {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    padding: 10px;
+    border: 4px solid #545e75;
+    background: repeating-radial-gradient(#545e75 ,#FAEDCA,#C1DBB3);
+    color: #29339B;
     font-size: 20px;
-
-}
+  }
+  
+  .sumList h3 {
+    margin: 5px;
+  }
+  
+  .hero {
+      width: 100%;
+      display: block;
+  }
 
 .contact img {
     width: 400px;
