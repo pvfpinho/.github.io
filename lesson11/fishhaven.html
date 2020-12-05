@@ -59,7 +59,12 @@
     <div id="message"><b>Saturday = Preston Pancakes in the Park!  9:00 a.m.<br>Saturday at the city park pavilion.</b></div>
     <h1>Fish Haven, Idaho</h1>
     <div class="biglogo">
-      <img src="images/widelog.jpg" alt="sky and clouds">
+      <picture class ="hero">
+        <source media="(max-width: 400px)" srcset="images/wide400.jpg">
+        <source media="(max-width: 800px)" srcset="images/wide800.jpg">
+        <source media="(max-width: 1200px)" srcset="images/wide1200.jpg">
+        <img src="images/widelog.jpg" alt="Sky and clouds">
+      </picture>
       <section class="sumList">
         <h3>Weather Summary</h3>
         <p>Currently: Sunny</p>
