@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="WDD 230 - week 12: Final project by Pamella Rodrigues, Brigham Young University Idaho">
+
+<!-- Favicon w05  -->
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<!-- Title page  -->
+<title> Scoots Page</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+
+     
+</head>
+
+<body>
+<!-- HEADER HERE -->
+	<header class="clearfix">
+        <img src="images/logo.png" alt="logo">
+        <h1>The Scoots Site</h1> 
+        <h2>🛵 Motor scooter rental company!🛵 </h2>
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+<nav class="clearfix">
+    <button onclick="menubuton()">☰ Menu</button>
+    <ul id="menuNav" class="hide">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="rental.html">Rentals</a></li>
+        <li><a href="reservation.html">Reservations</a></li>
+        <li><a href="tour.html">Tours</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </nav>
+
+<!-- CONTENT HERE -->
+<main>
+
+    <div id="message"><b>Saturday = Preston Pancakes in the Park!  9:00 a.m.<br>Saturday at the city park pavilion.</b></div>
+    <h1>Welcome to Meteorologyck Weather Page</h1>
+    <div class="biglogo">
+      <picture class ="hero">
+        <picture class ="hero">
+          <source media="(max-width: 400px)" srcset="images/wide400.jpg">
+          <source media="(max-width: 800px)" srcset="images/wide800.jpg">
+          <source media="(max-width: 1200px)" srcset="images/wide1200.jpg">
+          <img src="images/widelog.jpg" alt="Sky and clouds">
+        </picture>
+      </picture>
+      <section class="sumList">
+        <h3>Weather Summary</h3>
+        <p>Currently: Sunny</p>
+        <p>High: <span id="ht">50</span>°F</p>
+        <p>Wind Chill: <span id="wc">  </span>°F</p>
+        <p>Humidity: <span>6.7%</span></p>
+        <p>Wind Speed: <span id="ws">5</span>MPH</p>
+        
+      </section>
+    </div>
+
+    <div class="towns"></div>
+    <section class="eventsec">
+      <h2>Upcoming Events:</h2> <hr>
+      <div id="events">
+
+
+
+      </div>
+  </section>
+
+
+    <section class="article">
+       
+
+                
+                <h2>Our Purpose</h2>
+                <hr>
+                <p>
+                  The purpose of this website is to provide people with the weather update, 24hs, 7 days a week, at Cities of:<br>
+                  - Fish Haven<br>
+                  - Preston<br>
+                  - Soda Springs
+                  <br>
+                  We want to provide the current weather and help all Citizens and also all visitors 
+                  to be prepared for their day activities and enjoy even more the outdoors and our beautiful place.
+                  We want this to be a web site with easy access to all the information, with easy understanding and
+                  accessible from any device you use.
+                
+                </p>
+            
+      
+    </section>
+
+   
+    <section class="contact">
+        
+            <img src="images/map.jpg" alt="map with location">
+            <h2>Contact Information</h2>
+            <br>
+            <h4>Meteorologyck Office Location</h4>
+            <span>300 south 200 east<br> Preston Idaho</span>
+            <br>
+            <span>☏ (123) 456-7788 </span>
+            <br>
+            <span>✉ support@Meteorologyck.com </span>
+            <br>
+        
+    </section>
+
+
+ </main>
+    
+<!-- FOOTER HERE -->   
+<footer>
+    &copy; 2020 | The Meteorologyck Site | Pam Rodrigues | <a target="_blank" href="home-wireframe.html">wireframe</a> | <span id="lastmodified"></span>
+
+   </footer>
+   <script src="js/menubuton.js"></script>
+   <script src="js/lastmodified.js"></script>
+   <script src="js/windchill.js"></script>
+   <script src="js/index.js"></script>
+   <script src="js/eventindex.js"></script>
+   
+
+</body>
+</html>
