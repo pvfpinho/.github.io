@@ -93,36 +93,91 @@ div.biglogo {
     margin-bottom: 50px;
     
   }
-
 .towns {
     display: flex;
     flex-direction: row;
 }
 
 .towns section {
-    margin-left: 10px;
-   
+  padding: 10px;
+  border: 4px #29339B solid ;
+  background-color:#C1DBB3;
+  text-align: center;
+  margin: auto;
+  max-width: 280px;
+  max-height: 400px;
+  margin-bottom: 50px;
    display: grid;
    grid-template-columns: 1fr;
-   grid-template-rows: 1fr;
+   grid-template-rows: 1fr 1fr;
    
 }
+.towns section img {
+  padding: .3rem; 
+  margin: auto; 
+  width: 240px; 
+  max-height: 150px; 
+  margin-bottom: 1px;
 
-.towns section .town1 {
-   grid-row: 1;
-   grid-column: 1 / 3;
+}
+.town2{
+  grid-row: 1;
+  margin-bottom: 10px;
+  margin-left: -10px;
+}
+
+.town1{
+  grid-row: 1;
+  grid-column: 1 / 3;
+}
+.fishhaven{
+  grid-row: 2;
 }
 
 .towns section .town2 {
-  grid-row: 1;
-  grid-column: 1 / 3;
+ grid-row: 1;
+ grid-column: 1 / 3;
 }
 
 .towns section .town3 {
+ grid-row: 1;
+ grid-column: 1 / 3;
+}
+/*
+.towns section {
+    margin-left: 10px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+}
+.fishhaven {
+  grid-column: 1;
   grid-row: 1;
-  grid-column: 1 / 3;
 }
 
+.soda {
+  grid-column: 3;
+  grid-row: 1;
+
+}
+
+.preston {
+  grid-column: 2;
+  grid-row: 1;
+}
+.town1 {
+   grid-row: 1;
+   grid-column: 1;
+}
+.town2 {
+  grid-row: 1;
+  grid-column: 2;
+}
+.town3 {
+  grid-row: 1;
+  grid-column: 3;
+}
+*/
 
 /*----------- FOOTER --------------*/
 }
