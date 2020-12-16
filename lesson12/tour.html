@@ -1,148 +1,139 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="description" content="WDD 230 - week 12: Final project by Pamella Rodrigues, Brigham Young University Idaho">
+  <meta charset="utf-8">
+  <meta name="description"
+    content="WDD 230 - week 12: Final project by Pamella Rodrigues, Brigham Young University Idaho">
 
-<!-- Favicon w05  -->
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Favicon w05  -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-<!-- Title page  -->
-<title> Scoots Page</title>
+  <!-- Title page  -->
+  <title> Scoots Page</title>
 
-<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-
-
-
-<!-- STYLE SHEETS -->
-<link href="css/normalize.css" rel="stylesheet">
-<!-- phone-default -->
-<link href="css/small.css" rel="stylesheet">
-<!-- enhance-tablet -->
-<link href="css/medium.css" rel="stylesheet">
-<!-- enhance-desktop -->
-<link href="css/large.css" rel="stylesheet">
+  <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
-     
+
+
+  <!-- STYLE SHEETS -->
+  <link href="css/normalize.css" rel="stylesheet">
+  <!-- phone-default -->
+  <link href="css/small.css" rel="stylesheet">
+  <!-- enhance-tablet -->
+  <link href="css/medium.css" rel="stylesheet">
+  <!-- enhance-desktop -->
+  <link href="css/large.css" rel="stylesheet">
+
+
+
 </head>
 
 <body>
-<!-- HEADER HERE -->
-	<header class="clearfix">
-        <img src="images/logo.png" alt="logo">
-        <h1>The Scoots Site</h1> 
-        <h2>🛵 Motor scooter rental company!🛵 </h2>
-    </header>
-    
-    
-<!-- NAVIGATION HERE -->
-<nav class="clearfix">
+  <!-- HEADER HERE -->
+  <header class="clearfix">
+    <img src="images/logo.png" alt="logo">
+    <h1>The Scoots Site</h1>
+    <h2>🛵 Motor scooter rental company!🛵 </h2>
+  </header>
+
+
+  <!-- NAVIGATION HERE -->
+  <nav class="clearfix">
     <button onclick="menubuton()">☰ Menu</button>
     <ul id="menuNav" class="hide">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="rental.html">Rentals</a></li>
-        <li><a href="reservation.html">Reservations</a></li>
-        <li><a href="tour.html">Tours</a></li>
-        <li><a href="contact.html">Contact</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="rental.html">Rentals</a></li>
+      <li><a href="reservation.html">Reservations</a></li>
+      <li><a class="active" href="tour.html">Tours</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
-    </nav>
+  </nav>
 
-<!-- CONTENT HERE -->
-<main>
+  <!-- CONTENT HERE -->
+  <main>
 
-    <div id="message"><b>Saturday = Preston Pancakes in the Park!  9:00 a.m.<br>Saturday at the city park pavilion.</b></div>
-    <h1>Welcome to Meteorologyck Weather Page</h1>
+    <div id="message"><b>Saturday = Preston Pancakes in the Park! 9:00 a.m.<br>Saturday at the city park pavilion.</b>
+    </div>
+    <h1>Welcome to The Scooter Rentals Page</h1>
     <div class="biglogo">
-      <picture class ="hero">
-        <picture class ="hero">
-          <source media="(max-width: 400px)" srcset="images/wide400.jpg">
-          <source media="(max-width: 800px)" srcset="images/wide800.jpg">
-          <source media="(max-width: 1200px)" srcset="images/wide1200.jpg">
-          <img src="images/widelog.jpg" alt="Sky and clouds">
-        </picture>
-      </picture>
-      <section class="sumList">
-        <h3>Weather Summary</h3>
-        <p>Currently: Sunny</p>
-        <p>High: <span id="ht">50</span>°F</p>
-        <p>Wind Chill: <span id="wc">  </span>°F</p>
-        <p>Humidity: <span>6.7%</span></p>
-        <p>Wind Speed: <span id="ws">5</span>MPH</p>
-        
-      </section>
+      <img src="images/widelog.jpg" alt="Scooters parked">
     </div>
 
-    <div class="towns"></div>
-    <section class="eventsec">
-      <h2>Upcoming Events:</h2> <hr>
-      <div id="events">
 
 
+      <section class="tourone">
+        <h2>Cozumel</h2>
+        <img src="images/map.jpg" alt="map of cozumel">
+        <hr>
+        <p class="tourone">island in the Caribbean Sea, about 10 miles (16 km) off the eastern coast of the Yucatán
+          Peninsula,
+          in Quintana Roo estado (state), southeastern Mexico.
+          Measuring about 29 miles (46 km) from northeast to southwest and averaging 9 miles (14 km) in width, it is the
+          largest of Mexico’s inhabited islands. Geologically similar to the Yucatán, the interior of Cozumel consists
+          of
+          a plain broken by low hills that are only about 50 feet (15 metres) above sea level. Much of the island is
+          covered by scrubby tropical jungle. Poor soils have discouraged agriculture on the island, but traditional
+          crops
+          include tropical fruits, henequen (a fibre crop), corn (maize), and cassava (manioc).
+          <br>
+          Clear, warm water, spectacular coral reefs, and abundant marine life make Cozumel one of the world’s best
+          scuba-diving destinations as well as a major resort. Indeed, the economy of Cozumel has been based on tourism
+          since the 1970s. In addition to the diving opportunities, other water sports, and fishing, tourists are
+          attracted by Cozumel’s tropical climate, sand beaches, and duty-free port shopping, along with its atmosphere,
+          which is more relaxed than that of nearby Cancún.
+        </p>
+      </section>
+      <section class="tourtwo">
+        <h2>San Miguel de Cozumel</h2>
+        <img src="images/index.jpg" alt="San Miguel de Cozumel beaches">
+        <hr>
+        <p class="tourtwo">San Miguel de Cozumel is the largest city in Cozumel Municipality in the Mexican state of
+          Quintana Roo.
+          With a 2010 census population of 77,236 persons, it is also
+          Quintana Roo's fourth-largest community, after Cancún, Chetumal, and
+          Playa del Carmen.
+        </p>
+      </section>
 
+
+      <div class="infoAddress">
+        <h2>Contact Information</h2>
+        <br>
+        <h4>Scooters Office Location #1</h4>
+        <span>3Av. Rafael E. Melgar 51-101, Centro, 77600<br>
+          San Miguel de Cozumel, Q.R., Mexico<br>
+          (Near the Playa del Carmen-Cozumel Ferry dock in el Centro de Cozumel) </span>
+        <br>
+        <span>☏ (123) 456-7788 </span>
+        <br>
+        <h4>Scooters Office Location #2</h4>
+        <span>77600 San Miguel de Cozumel, <br>
+          Quintana Roo, Mexico<br>
+          (near the Terminal Puerta Maya) </span>
+        <br>
+        <span>☏ (123) 456-7788 </span>
+        <br>
       </div>
-  </section>
 
 
-    <section class="article">
-       
+  </main>
 
-                
-                <h2>Our Purpose</h2>
-                <hr>
-                <p>
-                  The purpose of this website is to provide people with the weather update, 24hs, 7 days a week, at Cities of:<br>
-                  - Fish Haven<br>
-                  - Preston<br>
-                  - Soda Springs
-                  <br>
-                  We want to provide the current weather and help all Citizens and also all visitors 
-                  to be prepared for their day activities and enjoy even more the outdoors and our beautiful place.
-                  We want this to be a web site with easy access to all the information, with easy understanding and
-                  accessible from any device you use.
-                
-                </p>
-            
-      
-    </section>
+  <!-- FOOTER HERE -->
+  <footer>
+    &copy; 2020 | The Scoots Site | Pam Rodrigues| <span id="lastmodified"></span>
 
-   
-    <div class="infoAddress">
-      <h2>Contact Information</h2>
-     <br>
-     <h4>Scooters Office Location #1</h4>
-     <span>3Av. Rafael E. Melgar 51-101, Centro, 77600<br>
-       San Miguel de Cozumel, Q.R., Mexico<br>
-       (Near the Playa del Carmen-Cozumel Ferry dock in el Centro de Cozumel) </span>
-     <br>
-     <span>☏ (123) 456-7788 </span>
-     <br>
-     <h4>Scooters Office Location #2</h4>
-     <span>77600 San Miguel de Cozumel, <br>
-       Quintana Roo, Mexico<br>
-       (near the Terminal Puerta Maya) </span>
-     <br>
-     <span>☏ (123) 456-7788 </span>
-     <br>
-   </div>
+  </footer>
+  <script src="js/menubuton.js"></script>
+  <script src="js/lastmodified.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/forthree.js"></script>
 
 
- </main>
-    
-<!-- FOOTER HERE -->   
-<footer>
-  &copy; 2020 | The Scoots Site | Pam Rodrigues| <span id="lastmodified"></span>
 
- </footer>
- <script src="js/menubuton.js"></script>
- <script src="js/lastmodified.js"></script>
- <script src="js/weather.js"></script>
- <script src="js/forthree.js"></script>
- 
- 
- 
 
 </body>
+
 </html>
