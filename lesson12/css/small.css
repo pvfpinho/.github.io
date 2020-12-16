@@ -1,23 +1,28 @@
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
 
 /*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 /* 
-  <"primary">#545E75</td>
-  <secondary">#C03221</td>
-  <accent1">#FAEDCA</td>
-  <"accent2">#C1DBB3</td>
-  <"accent3">#7EBC89</td>
-  <"accent4">#29339B</td>
+  <"primary">#9893C8</td>
+  <secondary">#DDC67B</td>
+  <accent1">#2F4858</td>
+  <"accent2">#60E1E0</td>
+  <"accent3">#7ED6A5A</td>
 
 /*----------- BODY --------------*/
 body {
-  margin: auto;
-  background-color: #FAEDCA;
+  background-color: #DDC67B;
   font-size: 16px;
-  font-family: Verdana, sans-serif;
+  font-family: 'Dosis', sans-serif;
 }
 
 
@@ -25,141 +30,150 @@ body {
 
 
 header {
-    margin: auto;
-    padding: .5rem 0;
-    background-color: #545E75;
-    /*border: 5px solid#545E75;*/
+  padding: .5rem;
+  background-color: #ED6A5A;
+
 }
+
 header img {
-    float: left;
-    margin-right: 10px;
-    width: 90px;
+  float: left;
+  width: 60px;
 }
+
 header h1 {
-  font-family: 'Merriweather', serif;
-  color:#FAEDCA;
+  font-family: 'Playfair Display', serif;
+  color: #60E1E0;
   margin-top: 5px;
   font-size: 1.3rem;
 }
+
 header h2 {
-  font-family: 'Poppins', sans-serif;
-  color: #c1dbb3;
-  font-weight: bold;
+  font-family: 'Dosis', sans-serif;
+  color: #60E1E0;
+  font-size: 1rem;
+  margin-left: 0.5%;
+  text-align: center;
 
 }
 
 /*----------- NAVIGATION --------------*/
 nav button {
-  font-family: 'Merriweather', serif;
+  font-family: 'Dosis', sans-serif;
   margin: 4px;
   background-color: transparent;
   font-size: 12px;
-  color: #FAEDCA;
+  color: #DDC67B;
 }
+
 nav ul.hide {
   display: none;
 }
 
 nav {
-    border: 1px solid #FAEDCA;
-    font-size: 12px;
-    background-color: #545E75;
+  font-family: 'Dosis', sans-serif;
+  border: 1px solid #DDC67B;
+  font-size: 12px;
+  background-color: #2F4858;
 }
+
 nav ul {
-  
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li a {
-  
-    display: block;
-    color: #C1DBB3;
-    padding: .6rem 0;
-    text-decoration: none;
-    font-size: 12px;
-    text-align: center;
+
+  display: block;
+  color: #DDC67B;
+  padding: .6rem 0;
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
 }
 
 
 nav ul li a:hover {
-    background-color: #545E75;
-    color: #FAEDCA;
+  background-color: #60E1E0;
+  color: #ED6A5A;
 }
+
 nav ul li.active a {
-    background-color: #29339b;
-    color: #FAEDCA;
+  background-color: #DDC67B;
+  color: #2F4858;
 }
+
 /*----------- MAIN --------------*/
 main {
-    margin: auto;
-    padding: .5rem 0;
+  padding: .5rem 0;
 }
+
 main h1 {
+  font-family: 'Playfair Display', serif;
   text-align: center;
-  color: #29339B;
+  color: #2F4858;
 
 }
 
-main h2{
-  font-family: 'Poppins', sans-serif;
-  color: #FAEDCA;
+main h2 {
+  font-family: 'Playfair Display', serif;
+  color: #2F4858;
 }
 
+div.showme {
+display: block;
+}
 
-main section.eventsec {
-  text-align: center;
-  background-color: #545E75;
-  color: #FAEDCA;
-  padding: 5px;
-  margin-top: 8px;
-  font-size: 18px;
+div.hideme {
+  display: none;
+}
 
+/*----------- Index --------------*/
+
+.forecast{
+  margin-top: 4%;
+  display: none;
+}
+.forecast p{
+  font-size: 20px;
+  font-weight: bold;
+  color: #2F4858;
 
 }
+
 .rentable table {
   border: darkgray solid 2px;
   margin: 10px auto 10px auto;
   font-family: 'Roboto', sans-serif;
-  background-color: #ffd400;
+  background-color: #9893C8;
 }
 
-.rentable table th, td {
-    border: solid 2px darkgrey;
-    font-size: 20px;
+.rentable table th,
+td {
+  border: solid 2px #9893C8;
+  font-size: 20px;
 }
 
-.rentable table, th, td {
+.rentable table,
+th,
+td {
   border-collapse: collapse;
   padding: 10px;
 }
 
 .rentable table thead th {
-    font-size: 25px;
-    padding: 10px;
-    text-align: center;
-}
-
-.rentable table td:nth-child(2) {
-    text-align: center;
-}
-.rentable table td:nth-child(3) {
+  font-size: 25px;
+  padding: 10px;
   text-align: center;
 }
 
+.rentable table td:nth-child(2) {
+  text-align: center;
+}
 
-
-#message {
-  margin-left: 0%;
-  margin-right: 0%;
-  background-color: #29339B;
-  color: #FAEDCA;
-  padding: 5px;
-  margin-top: 8px;
-  font-size: 18px;
-  border: 2px solid #C1DBB3;
-
+.rentable table td:nth-child(3) {
+  text-align: center;
 }
 
 div.showme {
@@ -170,76 +184,17 @@ div.hideme {
   display: none;
 }
 
-div.biglogo {
-  border: 4px solid #545E75;
-  position: relative;
-}
-
-div.biglogo h2, p {
-  margin: 0;
-}
-
 .biglogo img {
   width: 100%;
-  
+  border: 4px solid #2F4858;
+
 }
 
-.sumList {
-  position: absolute;
-  top: 100px;
-  left: 20px;
-  padding: 10px;
-  border: 4px solid #545e75;
-  background: repeating-radial-gradient(#545e75 ,#FAEDCA,#C1DBB3);
-  color: #29339B;
-  font-size: 5px;
-}
-
-.sumList h3 {
-  margin: 5px;
-}
-
-.hero {
-    width: 100%;
-    display: block;
-}
-
-.forecast{
+.forecast {
   margin-top: 4%;
   display: none;
 }
-.forecast p{
-  font-size: 20px;
-  font-weight: bold;
-  color: #29339b;
 
-}
-.article {
-  padding-bottom: 5%;
-  background-color: #545E75;
-  font-size: 16px;
-  color: #FAEDCA;
-  margin-top: 4%;
-  margin-left: 0;
-  margin-bottom: 2%;
-  
-}
-.article h4, p {
-  margin-left: 2%;
-  
-
-}
-.article h2{
-  text-align: center;
-}
-
-.article img {
-  width: 100%;
-  border: 4px solid #545E75;
-  width: 100%;
-  margin-right: 1%;
-
-}
 
 .contact {
   color: #C1DBB3;
@@ -250,62 +205,10 @@ div.biglogo h2, p {
   background-color: #545E75;
   padding: .3rem 0;
 }
+
 .contact img {
   display: none;
 }
-
-.index-hero {
-  width: 100%; 
-}
-
-  
-
-.towns section {
-    padding: 5px;
-    border: 2px #545E75 solid ;
-    background-color:#545E75;
-    text-align: center;
-    margin: auto;
-    max-width: 280px;
-    max-height: 400px;
-    margin-bottom: 50px;
-}
-
-
-.towns section img {
-
-  margin: auto; 
-  width: 250px; 
-  max-height: 150px; 
-  margin-bottom: 1px;
-
-}
-
-.towns div h2{
-  color: #FAEDCA;
-  font-size: 20px;
-}
-
-.towns p{
-  font-size: 15px;
-  margin-right: 20px;
-  text-align: center;
-}
-.towns div p {
-
-text-align: center;
-color: #c1dbb3;
-}
-
-
-.towns section {
-display: grid;
-
-grid-template-columns: 1fr;
-
-}
-
-
 
 
 
@@ -315,14 +218,14 @@ grid-template-columns: 1fr;
 /*----------- FOOTER --------------*/
 footer {
   font-family: 'Poppins', sans-serif;
-  background-color:#29339B;
-  color:#C1DBB3;
+  background-color: #ED6A5A;
+  color: #60E1E0;
   padding: .5rem 0;
   text-align: center;
 }
 
-footer a{
-  color:#C1DBB3 ;
+footer a {
+  color: #60E1E0;
 }
 
 
