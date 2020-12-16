@@ -30,116 +30,117 @@
 </head>
 
 <body>
-<!-- HEADER HERE -->
-	<header class="clearfix">
-        <img src="images/logo.png" alt="logo">
-        <h1>The Scoots Site</h1> 
-        <h2>🛵 Motor scooter rental company!🛵 </h2>
-    </header>
-    
-    
-<!-- NAVIGATION HERE -->
-<nav class="clearfix">
-    <button onclick="menubuton()">☰ Menu</button>
-    <ul id="menuNav" class="hide">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="rental.html">Rentals</a></li>
-        <li><a href="reservation.html">Reservations</a></li>
-        <li><a href="tour.html">Tours</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-    </nav>
-
-<!-- CONTENT HERE -->
-
-<!-- CONTENT HERE -->
-<main>
-
-    <div id="message"><b>Saturday = Preston Pancakes in the Park!  9:00 a.m.<br>Saturday at the city park pavilion.</b></div>
-    <h1>Welcome to Meteorologyck Weather Page</h1>
+  <!-- HEADER HERE -->
+    <header class="clearfix">
+          <img src="images/icon.png" alt="logo">
+          <h1>The Scoots Site</h1> 
+          <h2>🛵 Motor scooter rental company!🛵 </h2>
+      </header>
+      
+      
+  <!-- NAVIGATION HERE -->
+  <nav class="clearfix">
+        <button onclick="menubuton()">☰ Menu</button>
+        <ul id="menuNav" class="hide">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="rental.html">Rentas</a></li>
+            <li><a href="reservation.html">Reservations</a></li>
+            <li><a href="tour.html">Tours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+        </nav>
+  
+  <!-- CONTENT HERE -->
+  <main>
+  
     <div class="biglogo">
       <picture class ="hero">
         <picture class ="hero">
           <source media="(max-width: 400px)" srcset="images/wide400.jpg">
           <source media="(max-width: 800px)" srcset="images/wide800.jpg">
           <source media="(max-width: 1200px)" srcset="images/wide1200.jpg">
-          <img src="images/widelog.jpg" alt="Sky and clouds">
+          <img src="images/widelog.jpg" alt="Scooters parked">
         </picture>
-      </picture>
-      <section class="sumList">
-        <h3>Weather Summary</h3>
-        <p>Currently: Sunny</p>
-        <p>High: <span id="ht">50</span>°F</p>
-        <p>Wind Chill: <span id="wc">  </span>°F</p>
-        <p>Humidity: <span>6.7%</span></p>
-        <p>Wind Speed: <span id="ws">5</span>MPH</p>
-        
-      </section>
-    </div>
 
-    <div class="towns"></div>
-    <section class="eventsec">
-      <h2>Upcoming Events:</h2> <hr>
-      <div id="events">
-
-
-
-      </div>
+    <div id="message"><b>Saturday = Promo code PASS123<br>For one person only!</b></div>
+    
+    <section class="weather">
+      <h3>Current Weather</h3>
+      Temp:<span id="ctemp"></span>&#8457;<br>
+      Des: <span id="cc"></span><br>
+      Humidity:<span id="ch"></span>%
   </section>
 
+  <section class="forecast">
+    <h3>Cozumel -3 days weather</h3>
+    
+  </section>
+   
+  
+  <div class="atrone">
+      <img src="images/mountain.jpg" alt="mountain place">
+      <h2 class="atrone">First atraction</h2>
+      <p class="atrone">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores omnis quaerat, vitae beatae voluptates adipisci ad obcaecati iusto perferendis ipsum ipsa unde assumenda velit,
+         dignissimos earum eligendi architecto dolorem minima.</p>
 
-    <section class="article">
-       
+    </div>
+    <div class="atrtwo">
+      <img src="images/river.jpg" alt="river place">
+      <h2 class="atrtwo">Second atraction</h2>
+      <p class="atrtwo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores omnis quaerat, vitae beatae voluptates adipisci ad obcaecati iusto perferendis ipsum ipsa unde assumenda velit,
+         dignissimos earum eligendi architecto dolorem minima.</p>
 
-                
-                <h2>Our Purpose</h2>
-                <hr>
-                <p>
-                  The purpose of this website is to provide people with the weather update, 24hs, 7 days a week, at Cities of:<br>
-                  - Fish Haven<br>
-                  - Preston<br>
-                  - Soda Springs
-                  <br>
-                  We want to provide the current weather and help all Citizens and also all visitors 
-                  to be prepared for their day activities and enjoy even more the outdoors and our beautiful place.
-                  We want this to be a web site with easy access to all the information, with easy understanding and
-                  accessible from any device you use.
-                
-                </p>
-            
+    </div>
+
+    <div class="atrthree">
+      <img src="images/fair.jpg" alt="fair place">
+      <h2 class="atrthree">Third atraction</h2>
+      <p class="atrthree">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores omnis quaerat, vitae beatae voluptates adipisci ad obcaecati iusto perferendis ipsum ipsa unde assumenda velit,
+         dignissimos earum eligendi architecto dolorem minima.</p>
+
+    </div>
       
     </section>
 
-   
-    <section class="contact">
-        
-            <img src="images/map.jpg" alt="map with location">
-            <h2>Contact Information</h2>
-            <br>
-            <h4>Meteorologyck Office Location</h4>
-            <span>300 south 200 east<br> Preston Idaho</span>
-            <br>
-            <span>☏ (123) 456-7788 </span>
-            <br>
-            <span>✉ support@Meteorologyck.com </span>
-            <br>
-        
-    </section>
+    <div class="infoAddress">
+      <h2>Contact Information</h2>
+     <br>
+     <h4>Scooters Office Location #1</h4>
+     <span>3Av. Rafael E. Melgar 51-101, Centro, 77600<br>
+       San Miguel de Cozumel, Q.R., Mexico<br>
+       (Near the Playa del Carmen-Cozumel Ferry dock in el Centro de Cozumel) </span>
+     <br>
+     <span>☏ (123) 456-7788 </span>
+     <br>
+    
+     <br>
+     <h4>Scooters Office Location #2</h4>
+     <span>77600 San Miguel de Cozumel, <br>
+       Quintana Roo, Mexico<br>
+       (near the Terminal Puerta Maya) </span>
+     <br>
+     <span>☏ (123) 456-7788 </span>
+     <br>
+   </div>
+
+  
 
 
  </main>
     
 <!-- FOOTER HERE -->   
 <footer>
-    &copy; 2020 | The Meteorologyck Site | Pam Rodrigues | <a target="_blank" href="home-wireframe.html">wireframe</a> | <span id="lastmodified"></span>
+  &copy; 2020 | The Scoots Site | Pam Rodrigues| <span id="lastmodified"></span>
 
-   </footer>
-   <script src="js/menubuton.js"></script>
-   <script src="js/lastmodified.js"></script>
-   <script src="js/windchill.js"></script>
-   <script src="js/index.js"></script>
-   <script src="js/eventindex.js"></script>
-   
+ </footer>
+ <script src="js/menubuton.js"></script>
+ <script src="js/lastmodified.js"></script>
+ <script src="js/weather.js"></script>
+ <script src="js/forthree.js"></script>
+ 
+ 
+ 
 
 </body>
 </html>
