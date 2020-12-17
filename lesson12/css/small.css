@@ -37,20 +37,21 @@ header {
 
 header img {
   float: left;
-  width: 60px;
+  width: 50px;
 }
 
 header h1 {
+  text-align: center;
   font-family: 'Playfair Display', serif;
   color: #60E1E0;
   margin-top: 5px;
-  font-size: 1.3rem;
+  font-size: 20px;
 }
 
 header h2 {
   font-family: 'Dosis', sans-serif;
   color: #60E1E0;
-  font-size: 1rem;
+  font-size: 15px;
   margin-left: 0.5%;
   text-align: center;
 
@@ -122,48 +123,166 @@ main h2 {
 }
 
 div.showme {
-display: block;
+  display: block;
 }
 
 div.hideme {
   display: none;
 }
 
+
+
 /*----------- Index --------------*/
 
-.forecast{
-  margin-top: 4%;
-  display: none;
+div.weather {
+  width: 30%;
+  background-color: #2F4858;
+  border: 4px solid #ED6A5A;
+  color: #ED6A5A;
+  text-align: center;
+  font-size: 15px;
+
 }
-.forecast p{
+
+.weather h3 {
+  margin-top: -2%;
+  font-family: 'Dosis', sans-serif;
   font-size: 20px;
+
+}
+
+.atrone {
+  margin-top: 10%;
+  display: flex;
+  background-color: #ED6A5A;
+}
+
+.atrone img {
+
+  width: 100%;
+  border: 4px solid #ED6A5A;
+
+}
+
+.atrone p {
+  font-family: 'Dosis', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #2F4858;
+  float: right;
+}
+
+.atrone h2 {
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  color: #2F4858;
+
+}
+
+.atrtwo {
+  margin-top: 10%;
+  display: flex;
+  background-color: #ED6A5A;
+}
+
+.atrtwo img {
+
+  width: 10%;
+  border: 4px solid #ED6A5A;
+
+
+}
+
+.atrtwo p {
+  font-family: 'Dosis', sans-serif;
+  font-size: 10px;
   font-weight: bold;
   color: #2F4858;
 
 }
 
-div#scooters {
-  font-family: 'Dosis', sans-serif;
+.atrtwo h2 {
   font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  color: #2F4858;
+
+}
+
+.atrthree {
+  margin-top: 10%;
+  display: flex;
+  background-color: #ED6A5A;
+}
+
+.atrthree img {
+
+  width: 10%;
+  border: 4px solid #ED6A5A;
+
+}
+
+.atrthree p {
+  font-family: 'Dosis', sans-serif;
+  font-size: 10px;
   font-weight: bold;
-  color:#2F4858;
-  
+  color: #2F4858;
+  float: right;
+}
+
+.atrthree h2 {
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  color: #2F4858;
+
 }
 
 
-div#utv{
-  font-family: 'Dosis', sans-serif;
-  font-size: 20px;
+.forecast {
+  margin-top: 4%;
+  display: none;
+}
+
+.forecast p {
+  font-size: 10px;
   font-weight: bold;
-  color:#2F4858;
+  color: #2F4858;
+
+}
+
+.scooter{
+  width: 15%;
+}
+
+.jeep{
+width: 15%;
+}
+.utv{
+  width:15%;
+}
+
+div#scooters {
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #2F4858;
+
+}
+
+
+div#utv {
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #2F4858;
 }
 
 div#jeeps {
   font-family: 'Dosis', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
-  color:#2F4858;
+  color: #2F4858;
 }
+
 .forecast {
   margin-top: 4%;
   display: none;
@@ -212,27 +331,30 @@ div.hideme {
 }
 
 .biglogo img {
+  display: none;
   width: 100%;
   border: 4px solid #2F4858;
 
 }
 
-section.rentaloptions h2{
+section.rentaloptions h2 {
   font-size: 14px;
 
 }
-.formcontact{
+
+.formcontact {
   margin-top: 10%;
   margin-bottom: 15%;
 }
 
-.formcontact legend{
+.formcontact legend {
   font-family: 'Dosis', sans-serif;
-    color:#2F4858;
+  color: #2F4858;
 
-    font-size: 40px;
+  font-size: 40px;
 }
-.submitBtn{
+
+.submitBtn {
   font-size: 15px;
   color: #ED6A5A;
   background-color: #2F4858;
@@ -241,49 +363,98 @@ section.rentaloptions h2{
 
 form label input:required {
   border: red solid 4px;
-  
+
 }
 
 
 form label input:required:valid {
-border-left: green solid 4px;
+  border-left: green solid 4px;
 
 }
+.atrthree img {
+ 
+  width: 100%;
+}
+.atrtwo img {
+ 
+  width: 100%;
+}
+
+.tourone {
+  text-align: center;
+
+}
+
+.tourone h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  color: #2F4858;
+  margin-bottom: 3%;
+
+}
+
+.tourone p {
+  font-size: 10px;
+  color: #2F4858;
+  margin-bottom: 3%;
+}
+
+.tourtwo {
+  text-align: center;
+
+}
+
+.tourtwo h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  color: #2F4858;
+  margin-bottom: 3%;
+
+}
+
+.tourtwo p {
+  font-size: 10px;
+  color: #2F4858;
+  margin-bottom: 3%;
+}
+
+
 
 div.contactpage {
   text-align: center;
 }
 
-div.contactpage h2{
+div.contactpage h2 {
   font-family: 'Playfair Display', serif;
-  font-size: 30px;
+  font-size: 15px;
   color: #2F4858;
   margin-bottom: 3%;
 
 }
 
-div.contactpage h4{
+div.contactpage h4 {
   font-family: 'Playfair Display', serif;
-  font-size: 20px;
+  font-size: 10px;
   color: #2F4858;
 
 }
 
 .contactpage span {
-  font-size: 15px;
+  font-size: 10px;
   color: #2F4858;
   margin-bottom: 3%;
 }
+
 iframe {
   margin-top: 3%;
 }
 
 .thanksmessage {
   background-color: #ED6A5A;
-    color: #2F4858;
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-    font-size: 60px;
+  color: #2F4858;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
 
 
 
@@ -291,19 +462,13 @@ iframe {
 
 
 
-
-
-
-
-
-
-
-div.infoAddress h2{
+div.infoAddress h2 {
   margin-left: 2%;
   float: left;
 }
 
-div.infoAddress{
+div.infoAddress {
+
   display: flex;
   align-items: center;
   background-color: #ED6A5A;
@@ -313,14 +478,55 @@ div.infoAddress{
   margin-bottom: -1%;
   margin-top: 3%;
 }
-div.infoAddress h4{
- font-size: 14px;
+
+.addressp {
+  font-family: 'Playfair Display', serif;
+  font-size: 10px;
 }
 
 span.infoAddress {
-margin-left: 5%;
+  font-size: 8px;
+  margin-left: 5%;
 
 }
+
+.serviceinfo {
+  text-align: center;
+  background-color: #60E1E0;
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  margin: 10px;
+  padding: 10px;
+  color: #2F4858;
+}
+
+.serviceinfo P {
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+
+
+}
+
+.reserveform legend {
+  font-size: 15px;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.reserveform fieldset {
+  border: inset #ED6A5A;
+  margin: 15px;
+}
+
+.rentform {
+
+  font-family: 'Dosis', sans-serif;
+  color: #2F4858;
+
+  font-size: 15px;
+}
+
+
 
 
 

@@ -1,21 +1,23 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="description" content="WDD 230 - week 12: Final project by Pamella Rodrigues, Brigham Young University Idaho">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="description"
+    content="WDD 230 - week 12: Final project by Pamella Rodrigues, Brigham Young University Idaho">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
 
-<!-- Favicon w05  -->
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Favicon w05  -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-<!-- Title page  -->
-<title> Scoots Page</title>
+  <!-- Title page  -->
+  <title> Scoots Page</title>
 
-<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
@@ -57,99 +59,108 @@
   <!-- CONTENT HERE -->
   <main>
 
-    <h1>Welcome to The Scooter Rentals Page</h1>
+    <h1>Reserve Now Page</h1>
     <div class="biglogo">
       <img src="images/wide400.jpg" alt="Scooters parked">
     </div>
 
 
 
-        <section class="serviceinfo">
+    <section class="serviceinfo">
 
 
-          <h2>Information and Service</h2>
-          <hr>
-          <p>A $50 security deposit is required to confirm reservations.
-            A valid drivers license is required in hand at time of rental.
-            No one under 12 years of age are allowed to ride on the scooters.
-            Fuel charge not included.
-            Unlimited mileage.
-            Liability insurance is free of charge.
-            Reservations rate requires 24 hour prior notification.
-            Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.
-            Payment via Google Pay, cash, credit card, debit card, or PayPal.
-            Rentals may be returned to either location.
+      <h2>Information and Service</h2>
+      <hr>
+      <p>A $50 security deposit is required to confirm reservations.
+        A valid drivers license is required in hand at time of rental.
+        No one under 12 years of age are allowed to ride on the scooters.
+        Fuel charge not included.
+        Unlimited mileage.
+        Liability insurance is free of charge.
+        Reservations rate requires 24 hour prior notification.
+        Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.
+        Payment via Google Pay, cash, credit card, debit card, or PayPal.
+        Rentals may be returned to either location.
 
 
-          </p>
-        </section>
-        <section class="reserveform">
-          <form method="GET" action="thankyou.html">
-            <fieldset>
-              <legend>
-                Reserve now!
-              </legend>
-              <label>Full Name<input class="top" type="text" name="name" pattern="[A-Za-z].{5,}" required></label>
-              <label>Email<input class="top" type="email" name="email" placeholder="someone@email.com" required></label>
-              <label>Phone Number<input class="top" type="tel" name="number" placeholder="1110001111" required></label>
-              <label>Home Country<input class="top" type="text" name="country" required></label>
-              <label>Cruise Line(Optional)<input class="top" type="text" name="cruise-line"></label>
-
-            </fieldset>
-            <input type="submit" value="Submit" class="submitBtn">
-          </form>
-          <fieldset>
-
-            <legend>Rental Details</legend>
-
-            <label>Date of Pickup<input class="top" type="date" name="date" required></label>
-            <p class="prental">Period of Rental</p>
-            <label class="rad"><input type="radio" name="period" value="Half-Day" required>Half-Day</label>
-            <label class="rad"><input type="radio" name="period" value="Full-Day" required>Full-Day</label>
-            <label class="rental-type">Rental Type
-              <select name="rental">
-                <option value="">Select your Rental!</option>
-                <option value="metro">Honda Metro Scooter</option>
-                <option value="dio">Honda Dio Scooter</option>
-                <option value="pcx150">Honda PCX150 Scooter</option>
-                <option value="pioneer">Honda Pioneer ATV</option>
-                <option value="jeep2door">Jeep Wrangler 2 Door</option>
-                <option value="jeep4door">Jeep Wrangler 4 Door a/c</option>
-              </select>
-            </label>
-            <label>Number of Rentals<input class="top" type="number" name="quantity" min="1" max="10" required></label>
-            <label>Drop off Location(Optional)<input class="top" type="text" name="drop-off"></label>
-
-          </fieldset>
-          <input type="submit" value="Submit my Reservation" class="submitBtn">
-
-
-          </form>
-
-        </section>
-
-
-        <div class="infoAddress">
-          <h2>Contact Information</h2>
+      </p>
+    </section>
+    <section class="reserveform">
+      <form method="GET" action="thankyou.html">
+        <fieldset>
+          <legend>
+            Reserve now!
+          </legend>
+          <label>Full Name<input class="top" type="text" name="name" pattern="[A-Za-z].{5,}" required></label>
+          <label>Email<input class="top" type="email" name="email" placeholder="name@email.com" required></label>
           <br>
-          <h4>Scooters Office Location #1</h4>
-          <span>3Av. Rafael E. Melgar 51-101, Centro, 77600<br>
-            San Miguel de Cozumel, Q.R., Mexico<br>
-            (Near the Playa del Carmen-Cozumel Ferry dock in el Centro de Cozumel) </span>
+          <label>Phone Number<input class="top" type="tel" name="number" placeholder="0000" required></label>
           <br>
-          <span>☏ (123) 456-7788 </span>
+          <label>Home Country<input class="top" type="text" name="country" required></label>
           <br>
+          <label>Cruise Line(Optional)<input class="top" type="text" name="cruise-line"></label>
 
-          <br>
-          <h4>Scooters Office Location #2</h4>
-          <span>77600 San Miguel de Cozumel, <br>
-            Quintana Roo, Mexico<br>
-            (near the Terminal Puerta Maya) </span>
-          <br>
-          <span>☏ (123) 456-7788 </span>
-          <br>
-        </div>
+        </fieldset>
+        <input type="submit" value="Submit" class="submitBtn">
+      </form>
+      <fieldset>
 
+        <legend>Rental Details</legend>
+
+        <label>Pick up date<input class="top" type="date" name="date" required></label>
+        <p class="rentform">Period of Rental</p>
+        <label class="rad"><input type="radio" name="period" value="Half-Day" required>Half-Day</label>
+        <br>
+        <label class="rad"><input type="radio" name="period" value="Full-Day" required>Full-Day</label>
+        <br>
+        <br>
+        <label class="rental-type">Rental Type
+          <select name="rental">
+            <option value="">Select rental</option>
+            <option value="metro">Honda Metro Scooter</option>
+            <option value="dio">Honda Dio Scooter</option>
+            <option value="pcx150">Honda PCX150 Scooter</option>
+            <option value="pioneer">Honda Pioneer ATV</option>
+            <option value="jeep2door">Jeep Wrangler 2 Door</option>
+            <option value="jeep4door">Jeep Wrangler 4 Door a/c</option>
+          </select>
+        </label>
+        <br>
+        <label>Total of Rental<input class="top" type="number" name="quantity" min="1" max="10" required></label>
+        <br>
+        <label>Drop off Location(Optional)<input class="top" type="text" name="drop-off"></label>
+
+      </fieldset>
+      <input type="submit" value="Reserve" class="submitBtn">
+
+    </section>
+    <div class="infoAddress">
+      <h2>Contact Information</h2>
+
+
+
+      <span class="infoAddress">
+        <strong> Office Location #1</strong>
+        <br>
+        3Av. Rafael E. Melgar 51-101, Centro<br>
+        San Miguel de Cozumel Mexico<br>
+        (Near the Playa del Carmen-Cozumel Ferry dock)
+        <br>☏ (123) 123-1234
+      </span>
+      <br>
+
+      <span class="infoAddress">
+
+        <strong>Office Location #2</strong>
+        <br>
+        77600 San Miguel de Cozumel, <br>
+        Quintana Roo, Mexico<br>
+        (near the Terminal Puerta Maya)
+        <br>☏ (123) 123-1234
+      </span>
+      <br>
+
+    </div>
 
   </main>
 
