@@ -2,7 +2,7 @@
 @media only screen and (min-width: 64rem) {
 
     header, nav, main, footer {
-        max-width: 64rem;
+        max-width: 75rem;
         margin:auto;
     }
 
@@ -67,6 +67,126 @@ main h2{
   
   }
 
+section.rentaloptions h2{
+    font-size: 40px;
+  
+  }
+  div#scooters {
+    margin:auto;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    
+  }
+.scooter{
+      width: 20%;
+  }
+
+.jeep{
+    width: 20%;
+}
+
+  div#utv{
+    margin:auto;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    
+  }
+
+  div#jeeps {
+    margin:auto;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    
+  }
+  div.infoAddress h2{
+      margin-left: 2%;
+      float: left;
+  }
+
+  div.infoAddress{
+      display: flex;
+      align-items: center;
+      background-color: #ED6A5A;
+      color: #2F4858;
+      text-align: center;
+ }
+ div.infoAddress h4{
+     font-size: 20px;
+ }
+
+span.infoAddress {
+    margin-left: 5%;
+
+ }
+
+ label {
+
+    font-family: 'Dosis', sans-serif;
+    color:#2F4858;
+
+    font-size: 40px;
+
+}
+
+.submitBtn{
+    font-size: 25px;
+    color: #ED6A5A;
+    background-color: #2F4858;
+  }
+ form label input:required {
+    border: red solid 4px;
+    
+
+
+}
+
+
+form label input:required:valid {
+  border-left: green solid 4px;
+  
+}
+
+div.contactpage {
+    text-align: center;
+}
+
+div.contactpage h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    color: #2F4858;
+    margin-bottom: 3%;
+
+}
+
+div.contactpage h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #2F4858;
+
+}
+
+.contactpage span {
+    font-size: 30px;
+    color: #2F4858;
+    margin-bottom: 3%;
+}
+iframe {
+    margin-top: 3%;
+}
+
+.thanksmessage {
+    background-color: #ED6A5A;
+      color: #2F4858;
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 80px;
+
+
+
+}
+
 
 /*----------- FOOTER --------------*/
+
+
 }

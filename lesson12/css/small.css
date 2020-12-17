@@ -142,6 +142,33 @@ div.hideme {
 
 }
 
+div#scooters {
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:#2F4858;
+  
+}
+
+
+div#utv{
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:#2F4858;
+}
+
+div#jeeps {
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:#2F4858;
+}
+.forecast {
+  margin-top: 4%;
+  display: none;
+}
+
 .rentable table {
   border: darkgray solid 2px;
   margin: 10px auto 10px auto;
@@ -190,28 +217,110 @@ div.hideme {
 
 }
 
-.forecast {
-  margin-top: 4%;
-  display: none;
+section.rentaloptions h2{
+  font-size: 14px;
+
+}
+.formcontact{
+  margin-top: 10%;
+  margin-bottom: 15%;
 }
 
+.formcontact legend{
+  font-family: 'Dosis', sans-serif;
+    color:#2F4858;
 
-.contact {
-  color: #C1DBB3;
+    font-size: 40px;
+}
+.submitBtn{
   font-size: 15px;
-  margin-top: 3%;
-  font-family: 'Poppins', sans-serif;
+  color: #ED6A5A;
+  background-color: #2F4858;
+}
+
+
+form label input:required {
+  border: red solid 4px;
+  
+}
+
+
+form label input:required:valid {
+border-left: green solid 4px;
+
+}
+
+div.contactpage {
   text-align: center;
-  background-color: #545E75;
-  padding: .3rem 0;
 }
 
-.contact img {
-  display: none;
+div.contactpage h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  color: #2F4858;
+  margin-bottom: 3%;
+
+}
+
+div.contactpage h4{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: #2F4858;
+
+}
+
+.contactpage span {
+  font-size: 15px;
+  color: #2F4858;
+  margin-bottom: 3%;
+}
+iframe {
+  margin-top: 3%;
+}
+
+.thanksmessage {
+  background-color: #ED6A5A;
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+
+
+
 }
 
 
 
+
+
+
+
+
+
+
+div.infoAddress h2{
+  margin-left: 2%;
+  float: left;
+}
+
+div.infoAddress{
+  display: flex;
+  align-items: center;
+  background-color: #ED6A5A;
+  color: #2F4858;
+  text-align: center;
+  padding-bottom: 1%;
+  margin-bottom: -1%;
+  margin-top: 3%;
+}
+div.infoAddress h4{
+ font-size: 14px;
+}
+
+span.infoAddress {
+margin-left: 5%;
+
+}
 
 
 
